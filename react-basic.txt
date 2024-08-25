@@ -1,0 +1,12 @@
+리액트의 주요 개념은 state의 데이터 값이 바뀔 때마다 component가 re-rendering 된다는 것이다.
+
+script
+
+const root = reactDOM.createRoot("root" in html)
+root.render(<App /> this is component)
+
+create component: const app = <div><h1></h1></div>
+state
+useState
+useEffect
+cleanup
